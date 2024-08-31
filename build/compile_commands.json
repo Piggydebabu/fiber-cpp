@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/cjw/codespace/fiber-cpp/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/fiber_lib.dir/fd_manager.o -c /home/cjw/codespace/fiber-cpp/fd_manager.cpp",
+  "file": "/home/cjw/codespace/fiber-cpp/fd_manager.cpp"
+},
+{
+  "directory": "/home/cjw/codespace/fiber-cpp/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/fiber_lib.dir/fiber.o -c /home/cjw/codespace/fiber-cpp/fiber.cpp",
+  "file": "/home/cjw/codespace/fiber-cpp/fiber.cpp"
+},
+{
+  "directory": "/home/cjw/codespace/fiber-cpp/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/fiber_lib.dir/hook.o -c /home/cjw/codespace/fiber-cpp/hook.cpp",
+  "file": "/home/cjw/codespace/fiber-cpp/hook.cpp"
+},
+{
+  "directory": "/home/cjw/codespace/fiber-cpp/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/fiber_lib.dir/iomanager.o -c /home/cjw/codespace/fiber-cpp/iomanager.cpp",
+  "file": "/home/cjw/codespace/fiber-cpp/iomanager.cpp"
+},
+{
+  "directory": "/home/cjw/codespace/fiber-cpp/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/fiber_lib.dir/scheduler.o -c /home/cjw/codespace/fiber-cpp/scheduler.cpp",
+  "file": "/home/cjw/codespace/fiber-cpp/scheduler.cpp"
+},
+{
+  "directory": "/home/cjw/codespace/fiber-cpp/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/fiber_lib.dir/thread.o -c /home/cjw/codespace/fiber-cpp/thread.cpp",
+  "file": "/home/cjw/codespace/fiber-cpp/thread.cpp"
+},
+{
+  "directory": "/home/cjw/codespace/fiber-cpp/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/fiber_lib.dir/timer.o -c /home/cjw/codespace/fiber-cpp/timer.cpp",
+  "file": "/home/cjw/codespace/fiber-cpp/timer.cpp"
+},
+{
+  "directory": "/home/cjw/codespace/fiber-cpp/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/fiber_lib.dir/utils.o -c /home/cjw/codespace/fiber-cpp/utils.cpp",
+  "file": "/home/cjw/codespace/fiber-cpp/utils.cpp"
+}
+]

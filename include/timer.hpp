@@ -1,4 +1,4 @@
-#ifndef __MONSOON_TIMER_H__
+#ifndef __mcs_TIMER_H__
 #  define __MONSSON_TIMER_H__
 
 #  include <memory>
@@ -6,7 +6,7 @@
 #  include <vector>
 #  include "mutex.hpp"
 
-namespace monsoon {
+namespace mcs {
 class TimerManager;
 
 class Timer : public std::enable_shared_from_this<Timer> {
@@ -74,6 +74,6 @@ class TimerManager {
   // 上次执行时间
   uint64_t previouseTime_ = 0;
 };
-}  // namespace monsoon
+}  // namespace mcs
 
 #endif

@@ -1,5 +1,5 @@
-#ifndef __SYLAR_IOMANAGER_H__
-#define __SYLAR_IOMANAGER_H__
+#ifndef __mcs_IOMANAGER_H__
+#define __mcs_IOMANAGER_H__
 
 #include "fcntl.h"
 #include "scheduler.hpp"
@@ -7,7 +7,7 @@
 #include "sys/epoll.h"
 #include "timer.hpp"
 
-namespace monsoon {
+namespace mcs {
 enum Event {
   NONE = 0x0,
   READ = 0x1,
@@ -76,6 +76,6 @@ class IOManager : public Scheduler, public TimerManager {
   RWMutex mutex_;
   std::vector<FdContext *> fdContexts_;
 };
-}  // namespace monsoon
+}  // namespace mcs
 
 #endif

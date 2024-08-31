@@ -1,5 +1,5 @@
-#ifndef __MONSOON_SCHEDULER_H__
-#define __MONSOON_SCHEDULER_H__
+#ifndef __mcs_SCHEDULER_H__
+#define __mcs_SCHEDULER_H__
 
 #include <atomic>
 #include <boost/type_index.hpp>
@@ -13,7 +13,7 @@
 #include "thread.hpp"
 #include "utils.hpp"
 
-namespace monsoon {
+namespace mcs {
 // 调度任务
 class SchedulerTask {
  public:
@@ -142,6 +142,6 @@ class Scheduler {
   int rootThread_ = 0;
   bool isStopped_ = false;
 };
-}  // namespace monsoon
+}  // namespace mcs
 
 #endif

@@ -1,7 +1,7 @@
 #include "timer.hpp"
 #include "utils.hpp"
 
-namespace monsoon {
+namespace mcs {
 bool Timer::Comparator::operator()(const Timer::ptr &lhs, const Timer::ptr &rhs) const {
   if (!lhs && !rhs) {
     return false;
@@ -184,4 +184,4 @@ bool TimerManager::hasTimer() {
   return !timers_.empty();
 }
 
-}  // namespace monsoon
+}  // namespace mcs

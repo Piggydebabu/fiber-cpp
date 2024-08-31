@@ -1,5 +1,5 @@
-#ifndef __MONSOON_MONSOON_H__
-#define __MONSOON_MONSOON_H__
+#ifndef __mcs_mcs_H__
+#define __mcs_mcs_H__
 
 #include "fd_manager.hpp"
 #include "fiber.hpp"

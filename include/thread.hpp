@@ -1,5 +1,5 @@
-#ifndef __SYLAR_THREAD_H_
-#define __SYLAR_THREAD_H_
+#ifndef __mcs_THREAD_H_
+#define __mcs_THREAD_H_
 
 #include <pthread.h>
 #include <stdint.h>
@@ -12,7 +12,7 @@
 #include <memory>
 #include <thread>
 
-namespace monsoon {
+namespace mcs {
 class Thread {
  public:
   typedef std::shared_ptr<Thread> ptr;
@@ -38,6 +38,6 @@ class Thread {
   std::function<void()> cb_;
   std::string name_;
 };
-}  // namespace monsoon
+}  // namespace mcs
 
 #endif

@@ -1,5 +1,5 @@
-#ifndef __MONSOON_MUTEX_H_
-#define __MONSOON_MUTEX_H_
+#ifndef __mcs_MUTEX_H_
+#define __mcs_MUTEX_H_
 
 #include <pthread.h>
 #include <semaphore.h>
@@ -15,7 +15,7 @@
 #include "noncopyable.hpp"
 #include "utils.hpp"
 
-namespace monsoon {
+namespace mcs {
 // TODO:具体实现
 // 信号量
 class Semaphore : Nonecopyable {
@@ -160,6 +160,6 @@ class RWMutex : Nonecopyable {
  private:
   pthread_rwlock_t m_;
 };
-}  // namespace monsoon
+}  // namespace mcs
 
 #endif

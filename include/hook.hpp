@@ -1,5 +1,5 @@
-#ifndef __MONSOON_HOOK_H__
-#define __MONSOON_HOOK_H__
+#ifndef __HOOK_H__
+#define __HOOK_H__
 
 #include <fcntl.h>
 #include <stdint.h>
@@ -10,12 +10,12 @@
 #include <unistd.h>
 #include "hook.hpp"
 
-namespace monsoon {
+namespace mcs {
 // 当前线程是否hook
 bool is_hook_enable();
 // 设置当前线程hook
 void set_hook_enable(bool flag);
-}  // namespace monsoon
+}  // namespace mcs
 
 extern "C" {
 // sleep

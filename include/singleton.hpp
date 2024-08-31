@@ -1,9 +1,9 @@
-#ifndef __MONSOON_SINGLETON_H__
-#define __MONSOON_SINGLETON_H__
+#ifndef __mcs_SINGLETON_H__
+#define __mcs_SINGLETON_H__
 
 #include <memory>
 
-namespace monsoon {
+namespace mcs {
 namespace {
 template <class T, class X, int N>
 T &GetInstanceX() {
@@ -54,6 +54,6 @@ class SingletonPtr {
   }
 };
 
-}  // namespace monsoon
+}  // namespace mcs
 
 #endif
